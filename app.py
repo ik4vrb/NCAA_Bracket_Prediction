@@ -5,7 +5,7 @@ import json
 import plotly.graph_objs as go
 
 # Load team probabilities from the JSON file
-with open('team_probabilities.json', 'r') as f:
+with open('data/team_probabilities.json', 'r') as f:
     team_probabilities = json.load(f)
 
 # load the CSS stylesheet
